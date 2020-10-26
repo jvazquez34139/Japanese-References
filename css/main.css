@@ -55,6 +55,11 @@ nav a:active{
 .content h1{
   color: #FF9988
 }
+.translate{
+  font-weight: bold;
+  /* text-decoration: underline; */
+  background-color: #dcdcdc;
+}
 .filling{
   text-align: justify;
 }
