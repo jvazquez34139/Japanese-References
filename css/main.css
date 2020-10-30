@@ -64,8 +64,10 @@ nav a:active{
   text-align: justify;
 }
 .filling img{
-  height: 300px;
+  display: block;
+  height: 150px;
   width: auto;
+  max-width:
 }
 footer{
   min-height: 4.2rem;
