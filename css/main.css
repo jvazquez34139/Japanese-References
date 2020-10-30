@@ -49,6 +49,7 @@ nav a:active{
 .content{
   padding-top: 90px;
   max-width: 46%;
+  min-width: 450px;
   margin: 0 auto;
   text-align: left;
 }
@@ -64,10 +65,11 @@ nav a:active{
   text-align: justify;
 }
 .filling img{
+  margin: 0 auto;
   display: block;
-  height: 150px;
-  width: auto;
-  max-width:
+  width: 100%;
+  max-width: 450px;
+  height: auto;
 }
 footer{
   min-height: 4.2rem;
