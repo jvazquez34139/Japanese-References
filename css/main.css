@@ -3,7 +3,7 @@ header{
   position: fixed;
   background-color: #FFAAAA;
   /* #FF9988 */
-  height: 75px;
+  height: 10rem;
   width: 100%;
   display: flex;
   align-items: center;
@@ -21,9 +21,9 @@ nav ul{
 }
 nav ul li{
   display: block;
-  font-size: 1.4rem;
+  font-size: 2.2rem;
   font-weight: bold;
-  padding: 0 10px;
+  padding: 0 10px 0 0;
 }
 nav a{
   color: white;
@@ -47,14 +47,17 @@ nav a:active{
 }
 
 .content{
-  padding-top: 90px;
-  max-width: 46%;
+  padding-top: 11rem;
+  max-width: 94%;
   min-width: 450px;
   margin: 0 auto;
   text-align: left;
 }
 .content h1{
   color: #FF9988
+}
+p{
+  font-size: 1rem;
 }
 .translate{
   font-weight: bold;
@@ -64,6 +67,7 @@ nav a:active{
 .filling{
   text-align: justify;
 }
+
 .filling img{
   margin: 0 auto;
   display: block;
@@ -75,5 +79,15 @@ footer{
   min-height: 4.2rem;
   background-color: black;
   color: white;
-  z-index: -20px;
+}
+
+@media only screen and (min-width: 1000px) {
+  header{
+    height: 75px;
+  }
+
+  .content{
+    max-width: 46%;
+    padding-top: 90px;
+  }
 }
