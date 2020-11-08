@@ -27,17 +27,15 @@ nav ul li{
 }
 nav a{
   color: white;
-  border-bottom: 2px solid #FFAAAA;
+  border-bottom-width: 0;
 }
 nav a:hover{
   color:#dd2222;
-  border-bottom: 2px solid #dd2222;
   transition-property: all;
   transition:1s;
 }
 nav a:active{
   color: #ff4444;
-  border-bottom: 2px solid #ff4444;
   transition: none;
 }
 
@@ -55,6 +53,10 @@ nav a:active{
 }
 .content h1{
   color: #FF9988
+}
+#yt a{
+  color: #dd2222;
+  text-decoration: underline;
 }
 p{
   font-size: 1rem;
@@ -75,6 +77,7 @@ p{
   max-width: 450px;
   height: auto;
 }
+
 footer{
   min-height: 4.2rem;
   background-color: black;
@@ -89,5 +92,18 @@ footer{
   .content{
     max-width: 46%;
     padding-top: 90px;
+  }
+  .pics{
+    display: flex;
+    flex-direction: row;
+  }
+  .pics>a{
+    display: block;
+    margin: 0 auto;
+  }
+  .filling img{
+    height:300px;
+    width:auto;
+    margin: 0 auto;
   }
 }
